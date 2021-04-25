@@ -11,5 +11,48 @@
 </head>
 <body>
 
+<section>
+
+	<img src="img/bg.jpg" id="bg">
+	<img src="img/moon.png" id="moon">
+	<img src="img/mountain.png" id="mountain">
+	<img src="img/road.png" id="road">
+	<h2 id="title">Ay Işığı</h2>
+
+</section>
+
+
+<section class="yazi">
+	<div>
+		<h1>What is Lorem Ipsum?</h1>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</div>
+</section>
+
+<script type="text/javascript">
+	let bg = document.getElementById("bg");
+	let moon = document.getElementById("moon");
+	let mountain = document.getElementById("mountain");
+	let road = document.getElementById("road");
+	let title = document.getElementById("title");
+
+	window.addEventListener('scroll', function(){
+		var value = window.scrollY;
+
+		bg.style.top = value * 0.2 + 'px';
+		moon.style.left = -value * 0.5 + 'px';
+		mountain.style.top = -value * 0.15 + 'px';
+		road.style.top = value * 0.15 + 'px';
+		title.style.top = value * 1 + 'px';
+	})
+
+
+
+</script>
+
+
+
+
+
 </body>
 </html>
