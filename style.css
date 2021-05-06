@@ -55,6 +55,7 @@ section img{
 	left: 0;
 	width: 100%;	object-fit: cover;
 	pointer-events: none;
+
 }
 
 
@@ -87,3 +88,5 @@ section img{
 	text-align: center;
 	font-size: 32px;
 }
+
+
