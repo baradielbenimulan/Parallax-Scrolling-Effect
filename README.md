@@ -7,6 +7,7 @@
 
 * [CSS](https://html.com/)
 * [HTML](https://html.com/)
+* [JavaScript](https://www.javascript.com/)
 
 
 
